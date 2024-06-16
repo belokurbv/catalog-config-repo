@@ -1,0 +1,2 @@
+polar:
+  catalog-service-uri: "http://polar-postgres:9001"
