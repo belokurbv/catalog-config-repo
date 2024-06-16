@@ -5,7 +5,7 @@ spring:
   r2dbc:
     username: user
     password: password
-    url: r2dbc:postgresql://localhost:5432/polardb_order
+    url: r2dbc:postgresql://polar-postgres:5432/polardb_order
     pool:
       max-create-connection-time: 2s
       initial-size: 5
@@ -16,7 +16,7 @@ spring:
     url: jdbc:postgresql://polar-postgres:5432/polardb_order
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://catalog-service:8888
       request-connect-timeout: 5000 # 5s
       request-read-timeout: 5000 # 5s
       fail-fast: true # In production, set to true
