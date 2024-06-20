@@ -25,7 +25,3 @@ spring:
         initial-interval: 1000 # 1s
         max-interval: 2000 # 2s
         multiplier: 1.5
-
-
-polar:
-  catalog-service-uri: "http://catalog-service:8081"
