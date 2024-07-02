@@ -1,5 +1,5 @@
 polar:
-  catalog-service-uri: "http://polar-postgres:9001"
+  catalog-service-uri: "http://catalog-service"
 
 spring:
   r2dbc:
